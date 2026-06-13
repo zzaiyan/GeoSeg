@@ -1,0 +1,65 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.nox/
+.tox/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+conda-meta/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Local experiment outputs
+output/
+inference/
+wandb/
+runs/
+
+# Checkpoints and model weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Local dataset copies
+GHRLandCover/
+
+# LaTeX temporary files
+paper/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# Keep tracked training/evaluation logs in version control
+!train_eval_log/
+!train_eval_log/**
