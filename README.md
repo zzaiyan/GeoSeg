@@ -4,7 +4,7 @@
   <img src="assets/banner.jpg" width="95%">
 </p>
 
-<h1 align="center">🛰️ GeoSeg: Bridging Geospatial Gaps with Structural Priors for Open-Vocabulary Remote Sensing Segmentation</h1>
+<h2 align="center">🛰️ GeoSeg: Bridging Geospatial Gaps with Structural Priors for Open-Vocabulary Remote Sensing Segmentation</h2>
 
 Ruizhong Liu<sup>1</sup>, Tingzhang Luo<sup>2</sup>, Zaiyan Zhang<sup>3</sup>, Jundong Chen<sup>4</sup>, Hongruixuan Chen<sup>5</sup>, Shaoguang Huang<sup>1,*</sup>, Hongyan Zhang<sup>1</sup>
 
@@ -59,7 +59,7 @@ The HRLC benchmark is designed for cross-dataset open-vocabulary land cover segm
 
 | Dataset | Split in this repo | Role | Link |
 | --- | --- | --- | --- |
-| FLAIR | `FLAIR_train_sem_seg`, `FLAIR_val_sem_seg`, `FLAIR_all_sem_seg` | Train / Eval | [TODO](TODO_FLAIR_LINK) |
+| FLAIR | `FLAIR_train_sem_seg`, `FLAIR_val_sem_seg`, `FLAIR_all_sem_seg` | Train / Eval | [split](https://huggingface.co/datasets/rzliu1026/GHRLandCover/resolve/main/FLAIR_split.zip?download=true) / [all](https://huggingface.co/datasets/rzliu1026/GHRLandCover/resolve/main/FLAIR.zip?download=true) |
 | OpenEarthMap | `OEM_train_sem_seg`, `OEM_val_sem_seg`, `OEM_all_sem_seg` | Train / Eval | [split](https://huggingface.co/datasets/rzliu1026/GHRLandCover/resolve/main/OEM_split.zip?download=true) / [all](https://huggingface.co/datasets/rzliu1026/GHRLandCover/resolve/main/OEM.zip?download=true) |
 | LoveDA | `LoveDA_all_sem_seg` | Eval | [LoveDA.zip](https://huggingface.co/datasets/rzliu1026/GHRLandCover/resolve/main/LoveDA.zip?download=true) |
 | EarthMiss | `EarthMiss_all_sem_seg` | Eval | [EarthMiss.zip](https://huggingface.co/datasets/rzliu1026/GHRLandCover/resolve/main/EarthMiss.zip?download=true) |
